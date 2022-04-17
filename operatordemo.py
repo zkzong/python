@@ -54,3 +54,62 @@ print('交换之前：', a, b)
 # 交换
 a, b = b, a
 print('交换之后：', a, b)
+
+# 比较运算符，比较运算符的结果为bool类型
+a, b = 10, 20
+print('a>b吗？', a > b)
+print('a<b吗？', a < b)
+print('a<=b吗？', a <= b)
+print('a>=b吗？', a >= b)
+print('a==b吗？', a == b)
+print('a!=b吗？', a != b)
+
+'''
+一个 = 称为赋值运算符，==称为比较运算符
+一个变量由三部分组成，标识符（identifier）、类型（type）和值（value）
+== 比较的是值还是标识呢？比较的是值
+比较对象的标识使用 is
+'''
+a = 10
+b = 10
+print(a == b)  # True 说明a和b的值相等
+print(a is b)  # True 说明a和b的id标识相等
+list1 = [1, 2, 3]
+list2 = [1, 2, 3]
+print(list1 == list2)  # True 说明list1和list2的值相等
+print(list1 is list2)  # False 说明list1和list2的id标识不相等
+print(id(list1))
+print(id(list2))
+print(a is not b)  # False 说明a和b的id标识相等
+print(list1 is not list2)  # True 说明list1和list2的id标识不相等
+
+# 比尔运算符
+a, b = 1, 2
+print(a == 1 and b == 2)
+print(a == 1 and b < 2)
+print(a != 1 and b == 2)
+print(a != 1 and b != 2)
+
+print(a == 1 or b == 2)
+print(a == 1 or b < 2)
+print(a != 1 or b == 2)
+print(a != 1 or b != 2)
+
+f = True
+f2 = False
+print(not f)
+print(not f2)
+
+s = 'helloworld'
+print('w' in s)
+print('k' in s)
+print('w' not in s)
+print('k' not in s)
+
+# 位运算
+print(4 & 8)
+print(4 | 8)
+print(4 << 1)
+print(4 << 2)
+print(4 >> 1)
+print(4 >> 2)
