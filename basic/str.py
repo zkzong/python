@@ -97,10 +97,93 @@ print('7.', '张三'.isalpha())
 print('8.', '张三1'.isalpha())
 print('9.', '123'.isdecimal())
 print('10.', '123四'.isdecimal())
-print('11.', 'ⅡⅡⅡ'.isdecimal()) # 罗马数字
+print('11.', 'ⅡⅡⅡ'.isdecimal())  # 罗马数字
 print('12.', '123'.isnumeric())
 print('13.', '123四'.isnumeric())
 print('14.', 'ⅡⅡⅡ'.isnumeric())
 print('15.', 'abc1'.isalnum())
 print('16.', '张三123'.isalnum())
 print('17.', 'abc!'.isalnum())
+
+s = 'hello,Python'
+print(s.replace('Python', 'Java'))
+s1 = 'hello,Python,Python,Python'
+print(s1.replace('Python', 'Java', 2))
+
+lst = ['hello', 'Java', 'Python']
+print('|'.join(lst))
+print(''.join(lst))
+t = ('hello', 'Java', 'Python')
+print(''.join(t))
+
+print('*'.join('Python'))
+
+print('apple' > 'app')
+print('apple' > 'banana')
+print(ord('a'), ord('b'))
+print(chr(97), chr(98))
+print(chr(26472))
+
+'''
+==与is的区别
+==比较的是value
+is比较的是id
+'''
+a = b = 'Python'
+c = 'Python'
+print(a == b)
+print(b == c)
+print(a is b)
+print(a is c)
+print(id(a))
+print(id(b))
+print(id(c))
+
+s = 'hello,Python'
+s1 = s[:5]
+s2 = s[6:]
+s3 = '!'
+newstr = s1 + s3 + s2
+print(s1)
+print(s2)
+print(newstr)
+print('-------------------------------')
+print(id(s))
+print(id(s1))
+print(id(s2))
+print(id(s3))
+print(id(newstr))
+print('-------------切片[start:end:step]------------------')
+print(s[1:5:1])
+print(s[::2])
+print(s[::-1])
+print(s[-6::1])
+
+# 格式化字符串
+# %占位符
+name = '张三'
+age = 20
+print('我叫%s，今年%d岁' % (name, age))
+# {}
+print('我叫{0}，今年{1}岁'.format(name, age))
+# f-string
+print(f'我叫{name}，今年{age}岁')
+
+print('%10d' % 99)  # 10表示宽度
+print('%.3f' % 3.1415926)
+print('%10.3f' % 3.1415926)
+print('hellohello')
+
+print('{0:.3}'.format(3.1415926))  # .3表示一共是3位数
+print('{:.3f}'.format(3.1415926))  # .3f表示一共是3位小数
+print('{:10.3f}'.format(3.1415926))
+
+s = '天涯共此时'
+# 编码
+print(s.encode(encoding='GBK')) # 在GBK这种编码格式中，一个中文占两个字节
+print(s.encode(encoding='UTF-8')) # 在UTF-8这种编码格式中，一个中文占三个字节
+# 解码
+byte=s.encode(encoding='GBK')
+print(byte.decode(encoding='GBK'))
+byte=s.encode(encoding='UTF-8')
+print(byte.decode(encoding='UTF-8'))
