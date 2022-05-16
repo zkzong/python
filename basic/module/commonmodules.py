@@ -10,3 +10,9 @@ print(sys.getsizeof(False))
 import time
 print(time.time())
 print(time.localtime(time.time()))
+
+import urllib.request
+print(urllib.request.urlopen('http://www.baidu.com').read())
+
+import math
+print(math.pi)
