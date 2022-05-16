@@ -28,14 +28,20 @@ file = open('a.txt', 'r')
 # print(file.readline())
 print(file.readlines())
 
-file = open('a.txt', 'a')
+file = open('c.txt', 'a')
 file.write('hello')
 lst = ['java', 'go', 'python']
 file.writelines(lst)
 file.close()
 
-file = open('a.txt', 'r', encoding='utf-8')
+file = open('c.txt', 'r')
 file.seek(2)
 print(file.read())
 print(file.tell())
+file.close()
+
+file = open('d.txt', 'a')
+file.write('hello')
+file.flush()
+file.write('world')
 file.close()
