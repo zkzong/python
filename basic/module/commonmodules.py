@@ -16,3 +16,13 @@ print(urllib.request.urlopen('http://www.baidu.com').read())
 
 import math
 print(math.pi)
+
+import schedule
+def job():
+    print('I am job')
+
+schedule.every(3).seconds.do(job)
+while True:
+    schedule.run_pending()
+    time.sleep(1)
+
