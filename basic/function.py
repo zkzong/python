@@ -164,10 +164,22 @@ fun(10, 20, 30, 40)
 fun(a=10, b=20, c=30, d=40)
 fun(10, 20, c=30, d=40)
 '''需求：c,d只能采用关键字实参传递'''
-def fun(a, b, * c, d): # 从*之后的参数，在函数调用时，只能采用关键字参数传递
+def fun(a, b, *, c, d): # 从*之后的参数，在函数调用时，只能采用关键字参数传递
     print('a=', a)
     print('b=', b)
     print('c=', c)
     print('d=', d)
 fun(a=10, b=20, c=30, d=40)
 fun(10, 20, c=30, d=40)
+
+
+# 函数文档
+def exchangeRate(dollar):
+    """
+    功能：汇率转换，美元 -> 人民币
+    汇率：6.54
+    日期：2022-05-25
+    """
+    return dollar * 6.54
+
+print(exchangeRate.__doc__)
