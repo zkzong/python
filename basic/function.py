@@ -183,3 +183,25 @@ def exchangeRate(dollar):
     return dollar * 6.54
 
 print(exchangeRate.__doc__)
+
+# 函数内部改变全局变量，不会真正改变变量值
+i = 5
+def change():
+    i = 10
+    print(i)
+
+change()
+print(i)
+
+# 闭包
+def funX(x):
+    def funY(y):
+        return x * y
+    return funY
+
+temp = funX(8)
+print(temp(5))
+
+# 装饰器
+def log(func):
+    def wrapper():

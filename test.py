@@ -13,3 +13,10 @@ print(lst)
 print(' union '.join(lst))
 
 # print(2**128 > 20220104140807111111162151027176084384)
+
+# 解包
+num = (1, 2, 3)
+print(num)
+print(*num)
+
+
