@@ -205,3 +205,39 @@ print(temp(5))
 # 装饰器
 def log(func):
     def wrapper():
+        print('开始调用eat()函数...')
+        func()
+        print('结束调用eat()函数...')
+    return wrapper
+
+def eat():
+    print('eat')
+
+eat = log(eat)
+eat()
+
+def log(func):
+    def wrapper(name):
+        print('开始调用eat()函数...')
+        func(name)
+        print('结束调用eat()函数...')
+    return wrapper
+
+@log
+def eat(name):
+    print('%s eat' % name)
+
+eat('zong')
+
+def log(func):
+    def wrapper(*params):
+        print('开始调用eat()函数...')
+        func(*params)
+        print('结束调用eat()函数...')
+    return wrapper
+
+@log
+def eat(*params):
+    print('%s eat' % params)
+
+eat('zong')

@@ -72,3 +72,20 @@ items = ['Fruits', 'Books', 'Others']
 prices = [96, 78, 85, 100, 200]
 d = {item.upper(): price for item, price in zip(items, prices)}
 print(d)
+
+# 清空字典
+a = {1: 1, 2: 2, 3: 3}
+b = a
+print(a)
+print(b)
+a = {}
+print(a)
+print(b)
+
+a = {1: 1, 2: 2, 3: 3}
+b = a
+print(a)
+print(b)
+a.clear()
+print(a)
+print(b)
