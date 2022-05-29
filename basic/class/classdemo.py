@@ -49,3 +49,13 @@ print('-------------------------类方法的使用方式------------------------
 Student.class_method()
 print('-------------------------静态方法的使用方式----------------------------')
 Student.method()
+
+# 无self
+class BB:
+    def printBB():
+        print('BB')
+
+BB.printBB()
+
+bb = BB()
+# bb.printBB()
