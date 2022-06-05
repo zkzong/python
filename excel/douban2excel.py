@@ -4,7 +4,7 @@
 # 爬取豆瓣Top250电影排行榜
 import requests
 import bs4
-import re
+import openpyxl
 
 # header = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.30'}
 # res = requests.get('https://movie.douban.com/top250', headers=header)
@@ -34,7 +34,7 @@ def find_movies(res):
     ranks = []
     targets = soup.find_all("span", class_="rating_num")
     for each in targets:
-        ranks.append('评分：%s' % each.text)
+        ranks.append(each.text)
     # 资料
     messages = []
     targets = soup.find_all("div", class_="bd")
@@ -47,7 +47,7 @@ def find_movies(res):
     result = []
     length = len(movies)
     for i in range(length):
-        result.append(movies[i] + ranks[i] + messages[i] + '\n')
+        result.append([movies[i], ranks[i], messages[i]])
     return result
 
 # 找出一共有多少个页面
@@ -55,6 +55,20 @@ def find_depth(res):
     soup = bs4.BeautifulSoup(res.text, 'html.parser')
     depth = soup.find("span", class_="next").previous_sibling.previous_sibling.text
     return int(depth)
+
+def save_to_excel(result):
+    wb = openpyxl.Workbook()
+    ws = wb.active
+
+    ws['A1'] = '电影名称'
+    ws['B1'] = '评分'
+    ws['C1'] = '资料'
+
+    for each in result:
+        ws.append(each)
+
+    wb.save('豆瓣TOP250电影.xlsx')
+
 
 def main():
     host = 'http://movie.douban.com/top250'
@@ -67,9 +81,12 @@ def main():
         res = open_url(url)
         result.extend(find_movies(res))
 
+    '''
     with open('豆瓣TOP250电影.txt', 'w', encoding='utf-8') as f:
         for each in result:
             f.write(each)
+    '''
+    save_to_excel(result)
 
 if __name__ == '__main__':
     main()
