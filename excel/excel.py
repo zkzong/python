@@ -81,3 +81,16 @@ wb.save('demo.xlsx')
 ws1.merge_cells('A1:C3')
 ws1['A1'] = '这是一个合并单元格'
 wb.save('demo.xlsx')
+ws1.unmerge_cells('A1:C3')
+wb.save('demo.xlsx')
+
+# 冻结窗口
+openpyxl.load_workbook('demo.xlsx')
+ws = wb.active
+# B8单元格上面和左面的被冻结
+ws.freeze_panes = 'B8'
+wb.save('demo.xlsx')
+# 解冻
+ws.freeze_panes = 'A1'
+ws.freeze_panes = None
+wb.save('demo.xlsx')
