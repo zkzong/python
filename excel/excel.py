@@ -4,7 +4,7 @@
 import openpyxl
 import datetime
 
-from openpyxl import Workbook
+from openpyxl import Workbook, load_workbook
 from openpyxl.styles import Font, PatternFill, GradientFill, Side, Border, Alignment, NamedStyle
 from openpyxl.utils import FORMULAE
 
@@ -193,3 +193,9 @@ wb.save('number.xlsx')
 # 函数公式
 print('SUM' in FORMULAE)
 print('SAM' in FORMULAE)
+
+wb = load_workbook('test.xlsx')
+ws = wb['Sheet']
+for row in ws.iter_rows(min_col=2, min_row=2, max_col=5, max_row=5):
+    ws[row[3].coordinate] = '=SUM(%s:%s)' % (row[0].coordinate, row[2].coordinate)
+wb.save('test.xlsx')
