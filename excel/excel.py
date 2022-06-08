@@ -4,6 +4,10 @@
 import openpyxl
 import datetime
 
+from openpyxl import Workbook
+from openpyxl.styles import Font, PatternFill, GradientFill, Side, Border, Alignment, NamedStyle
+from openpyxl.utils import FORMULAE
+
 wb = openpyxl.Workbook()
 ws = wb.active
 print(ws.title)
@@ -94,3 +98,98 @@ wb.save('demo.xlsx')
 ws.freeze_panes = 'A1'
 ws.freeze_panes = None
 wb.save('demo.xlsx')
+
+# 设置单元格字体
+wb = Workbook()
+ws = wb.active
+b2 = ws['B2']
+b2.value = 'Hello'
+bold_red_font = Font(bold=True, color='FF0000')
+b2.font = bold_red_font
+b3 = ws['B3']
+b3.value = 'World'
+italic_strike_blue_16font = Font(size=16, italic=True, strike=True, color='0000FF')
+b3.font = italic_strike_blue_16font
+wb.save('demo1.xlsx')
+
+# 填充单元格
+yellow_fill = PatternFill(fill_type='solid', fgColor='FFFF00')
+b2.fill = yellow_fill
+wb.save('demo2.xlsx')
+
+red2green_fill = GradientFill(type='linear', stop=('FF0000', '00FF00'))
+b3.fill = red2green_fill
+wb.save('demo2.xlsx')
+
+# 设置边框
+thin_side = Side(border_style='thin', color='000000')
+double_side = Side(border_style='double', color='FF0000')
+b2.border = Border(diagonal=thin_side, diagonalUp=True, diagonalDown=True)
+b3.border = Border(top=double_side, left=double_side, right=double_side, bottom=double_side)
+wb.save('demo3.xlsx')
+
+# 文本对齐
+ws.merge_cells('A1:C2')
+ws['A1'] = '这是一个合并单元格'
+center_alignment = Alignment(horizontal='center', vertical='center')
+ws['A1'].alignment = center_alignment
+wb.save('demo4.xlsx')
+
+# 命名样式
+'''
+使用命名样式只需要四个步骤：
+1. 实例化一个NameStyle类
+2. 初始化命名样式
+3. 注册命名样式到工作簿中
+4. 将单元格的style属性赋值为命名样式
+'''
+highlight = NamedStyle(name='highlight')
+highlight.font = Font(bold=True, size=20)
+highlight.alignment = Alignment(horizontal='center', vertical='center')
+wb.add_named_style(highlight)
+ws['A1'].style = highlight
+ws['B5'].value = 'Hello'
+ws['B5'].style = highlight
+wb.save('demo5.xlsx')
+
+# 数字格式
+wb = openpyxl.Workbook()
+ws = wb.active
+ws.append(['文本', '数字'])
+ws['A2'] = '520'
+ws['B2'] = 520
+wb.save('test1.xlsx')
+
+wb = openpyxl.Workbook()
+ws = wb.active
+ws['A1'] = 88.8
+ws['A1'].number_format = '#,###.00元'
+ws['A2'] = datetime.datetime.today()
+ws['A2'].number_format = 'yyyy-mm-dd'
+wb.save('test2.xlsx')
+
+wb = openpyxl.Workbook()
+ws = wb.active
+ws['A1'].number_format = '[RED]+#,###.00;[GREEN]-#,###.00'
+ws['A1'] = 99
+ws['A2'].number_format = '[RED]+#,###.00;[GREEN]-#,###.00'
+ws['A2'] = -99
+ws['A3'].number_format = '[RED];[GREEN];[BLUE];[YELLOW]'
+ws['A3'] = 0
+ws['A4'].number_format = '[RED];[GREEN];[BLUE];[YELLOW]'
+ws['A4'] = 'Hello'
+ws['A5'].number_format = '[=1]男;[=0]女'
+ws['A5'] = 0
+ws['A6'].number_format = '[=1]男;[=0]女'
+ws['A6'] = 1
+ws['A7'].number_format = '[=1]男;[=0]女'
+ws['A7'] = 2
+ws['A8'].number_format = '[<60][RED]不及格;[>=60][GREEN]及格'
+ws['A8'] = 58
+ws['A9'].number_format = '[<60][RED]不及格;[>=60][GREEN]及格'
+ws['A9'] = 68
+wb.save('number.xlsx')
+
+# 函数公式
+print('SUM' in FORMULAE)
+print('SAM' in FORMULAE)
