@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html data-log-pv='{"mpc":15}'>
+    <head>
+        <script>
+            if (window && window.performance && typeof window.performance.now === 'function') {
+                !window.MptcfePerf ? window.MptcfePerf = { headst: +new Date() } : window.MptcfePerf.headst = +new Date()
+            }
+        </script>
+        <title>2017全国城市房价、工资排行榜出炉！</title>
+        <meta http-equiv="Cache-Control" content="no-transform" /> 
+<meta http-equiv="Cache-Control" content="no-siteapp" /> 
+<meta name="copyright" content="Copyright © 2017 Sohu.com Inc. All Rights Reserved." />
+<meta name="mediaid" content="佚名"/>
+<meta property="og:type" content="news"/>
+<meta property="og:image" content=""/>
+<meta property="og:url" content="www.sohu.com/a/153127827_726350"/>
+<meta property="og:release_date" content="2017-06-29 15:29"/>
+<meta itemprop="dateUpdate" content="2017-06-29 15:29" />
+<meta itemprop="datePublished" content="2017-06-29 15:29" />
+<link rel="canonical" href="http://www.sohu.com/a/153127827_726350"/>
+<link rel="alternate" media="only screen and(max-width: 640px)" href="m.sohu.com/a/153127827_726350"/>
+
+<meta name="keywords" content="2017,全国,城市,房价,工资,排行榜,出炉" />
+<meta name="description" content="" />
+<meta property="og:description" content=""/>
+<meta property="og:title" content="2017全国城市房价、工资排行榜出炉！"/>
+        <meta charset="utf-8"/>
+<meta name="data-spm" content="smpc">
+<meta name="renderer" content="webkit"> 
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1" />
+<link rel="icon" href="//statics.itc.cn/web/static/images/pic/sohu-logo/favicon.ico" type="image/x-icon"/>
+<link rel="shortcut icon" href="//statics.itc.cn/web/static/images/pic/sohu-logo/favicon.ico" type="image/x-icon"/>
+<link rel="apple-touch-icon" sizes="57x57" href="//statics.itc.cn/web/static/images/pic/sohu-logo/logo-57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="//statics.itc.cn/web/static/images/pic/sohu-logo/logo-72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="//statics.itc.cn/web/static/images/pic/sohu-logo/logo-114.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="//statics.itc.cn/web/static/images/pic/sohu-logo/logo-144.png" />
+<link href="//statics.itc.cn/web/static/css/main-8bacdc1bde.css" rel="stylesheet"/>
+<script>
+    //  加载监控代码
+</script>
+<!--[if lt IE 9]>
+<script src="//statics.itc.cn/web/static/js/es5-shim-08e41cfc3e.min.js"></script>
+<script src="//statics.itc.cn/web/static/js/es5-sham-1d5fa1124b.min.js"></script>
+<script src="//statics.itc.cn/web/static/js/html5shiv-21fc8c2ba6.js"></script>
+<link href="//statics.itc.cn/web/static/css/ie8hack-9dce3c3b96.css" rel="stylesheet" />
+<![endif]-->
+<script type="text/javascript">
+//解決IE8,IE9不支持console的问题
+(function() {
+    var method;
+    var noop = function() {};
+    var methods = [
+        'assert', 'clear', 'count', 'debug', 'dir', 'dirxml', 'error',
+        'exception', 'group', 'groupCollapsed', 'groupEnd', 'info', 'log',
+        'markTimeline', 'profile', 'profileEnd', 'table', 'time', 'timeEnd',
+        'timeStamp', 'trace', 'warn'
+    ];
+    var length = methods.length;
+    var console = (window.console = window.console || {});
+
+    while (length--) {
+        method = methods[length];
+
+        // Only stub undefined methods.
+        if (!console[method]) {
+            console[method] = noop;
+        }
+    }
+}());
+</script>
+<script type="text/javascript">
+    (function () {
+        var html = document.getElementsByTagName("html")[0];
+        var width = Math.min(document.documentElement.clientWidth, 790);
+        width = width < 320 ? 320 : width;
+        if (document.documentElement.clientWidth <= 1024) {
+            html.style.fontSize = width / 790 * 79 + 'px';
+        }
+        if (window.addEventListener) {
+            window.addEventListener('resize', resizeHandler);
+        }
+        else if (window.attachEvent) {
+            window.attachEvent('onresize', resizeHandler);
+        }
+        function resizeHandler() {
+            if (document.documentElement.clientWidth <= 1024) {
+                var width = Math.min(document.documentElement.clientWidth, 790);
+                width = width < 320 ? 320 : width;
+                html.style.fontSize = width / 790 * 79 + 'px';
+            } else {
+                html.style.fontSize = "16px";
+            }
+        };
+    })();
+</script>
+
+
+        <script type="text/javascript">
+                        window.feedbackQuestion = 
+                                    window.deployEnv = "prod"
+                    </script>
+    </head>
+        
+        
+            
+    <body class="article-page" data-region="144" data-spm="content" data-newsid="153127827">
+        <script>
+            if (window && window.performance && typeof window.performance.now === 'function') {
+                var currentTime = Math.round(window.performance.now())
+                !window.MptcfePerf ? window.MptcfePerf = { fmp: currentTime } : window.MptcfePerf.fmp = currentTime
+                !window.MptcfePerf ? window.MptcfePerf = { pltst: +new Date() - currentTime} : window.MptcfePerf.pltst = +new Date() - currentTime
+                !window.MptcfePerf ? window.MptcfePerf = { fmpst: +new Date() } : window.MptcfePerf.fmpst = +new Date()
+            }
+        </script>
+        <div class="wrapper-box">
+            <header id="main-header" class="error-head">
+
+
+	<div class="area">
+		<div class="head-nav left" data-spm="nav">
+			<ul>
+			    <li class="index"><a data-clev="10220248" class="clearfix" target="_blank" href="http://www.sohu.com"><em class="icon-home icon"></em><em class="sohu-logo">搜狐首页</em></a></li>
+														<li><a target="_blank" data-clev="10220249" href="http://news.sohu.com/">新闻</a></li>
+																			<li><a target="_blank" data-clev="10220250" href="http://sports.sohu.com/">体育</a></li>
+																			<li><a target="_blank" data-clev="10220251" href="http://auto.sohu.com/">汽车</a></li>
+																			<li><a target="_blank" data-clev="10220252" href="http://www.focus.cn/">房产</a></li>
+																			<li><a target="_blank" data-clev="10220253" href="http://travel.sohu.com/">旅游</a></li>
+																			<li><a target="_blank" data-clev="10220254" href="http://learning.sohu.com/">教育</a></li>
+																			<li><a target="_blank" data-clev="10220255" href="http://fashion.sohu.com/">时尚</a></li>
+																			<li><a target="_blank" data-clev="10220256" href="http://it.sohu.com/">科技</a></li>
+																			<li><a target="_blank" data-clev="10220257" href="http://business.sohu.com/">财经</a></li>
+																			<li><a target="_blank" data-clev="10220258" href="http://yule.sohu.com/">娱乐</a></li>
+																																																																																																																									<li class="more-nav"><a class="more-tag" href="javascript:void(0)">更多<em class="cor"></em></a>
+					<div class="more-nav-box">
+																																																																																																																																																					<a href="http://baobao.sohu.com/">母婴</a>
+																										<a href="http://health.sohu.com/">健康</a>
+																										<a href="http://history.sohu.com/">历史</a>
+																										<a href="http://mil.sohu.com/">军事</a>
+																										<a href="http://chihe.sohu.com/">美食</a>
+																										<a href="http://cul.sohu.com/">文化</a>
+																										<a href="http://astro.sohu.com/">星座</a>
+																										<a href="https://www.sohu.com/subject">专题</a>
+																										<a href="http://game.sohu.com/">游戏</a>
+																										<a href="http://fun.sohu.com/">搞笑</a>
+																										<a href="http://acg.sohu.com/">动漫</a>
+																										<a href="http://pets.sohu.com/">宠物</a>
+																		</div>
+				</li>
+				<li><a href="javascript:void(0)" id="pc-channel-wza-entry">无障碍</a></li>
+			</ul>
+		</div>
+		<div id="head-login" class="right login">
+		</div>
+	</div>
+
+</header>            <div class="location-without-nav"></div>
+            <div class="area clearfix" id="article-container">
+                <div class="column left">
+	                    <div class="user-info" id="user-info" data-spm="author">
+    <div class="user-pic">
+        <!-- fromWhere为10是马甲号作者不可点击进入个人页面 -->
+                    <a href="https://mp.sohu.com/profile?xpt=&_f=index_pagemp_1" target="_blank">
+                <img src="//29e5534ea20a8.cdn.sohucs.com/c_zoom,w_100/blog/avatar/11111.gif" alt="">
+            </a>
+            </div>
+
+    <h4>
+                    <a href="https://mp.sohu.com/profile?xpt=&_f=index_pagemp_1" target="_blank">佚名</a>
+                    </h4>
+    <!-- 积分 -->
+    
+                    <dl class="user-num">
+        <dd><span class="value" data-value="0" data-role="info-article-num"><em class="num"></em></span>文章</dd>
+        <dd><span class="value" data-value="" data-role="info-read-num"><em class="num"></em></span>总阅读</dd>
+    </dl>
+    
+    <!-- 企业认证 -->
+    
+    <!-- 非马甲号作者 -->
+            <div class="user-more">
+            <a href="https://mp.sohu.com/profile?xpt=&_f=index_pagemp_2" target="_blank">查看TA的文章&gt;</a>
+        </div>
+    </div>        		<div class="article-do" id="article-do" data-spm="share">
+		<div class="article-done">
+    <div class="title">评论</div>
+    <dl>
+
+        <dd class="comment-do"><a href="#comment_area" data-spm-acode="8089"><em class="comment-icon icon"></em><span class="num" data-role="comment-count"></span></a></dd>
+        <!--<dd class="zan-do" data-role="like-btn"><a href="javascript:void(0)"><span class="num" data-role="like">0</span><em class="icon zan-icon"></em></a>
+
+            <span class="add-one">+1</span>
+        </dd>-->
+    </dl>
+</div>
+		<div class="share" id="share">
+
+		</div>
+
+	</div>
+
+</div>
+                <div class="left main">
+                    <div data-spm="content">   
+                        <div class="text">
+                            <div class="text-title">
+    <h1>
+                    2017全国城市房价、工资排行榜出炉！
+                <span class="article-tag">
+                 </span>
+    </h1>
+            <div class="article-info">
+        <span class="time" id="news-time" data-val="1498721368000">2017-06-29 15:29</span>
+                    <span data-role="original-link">来源:
+                                    <a href="//www.sohu.com" target="_blank">佚名</a>                            </span>
+                
+    </div>
+</div>
+<article class="article" id="mp-editor">
+    <!-- 政务处理 -->
+          <p data-role="original-title" style="display:none">原标题：2017全国城市房价、工资排行榜出炉！</p>
+              <!--          -->
+            <p><img data-src="B6YQMHIgmv4SKktwO19VonIf5O+lf67ccHojnFJqL4oKxheciLPEanSK0zEp6j8fVIi2WQahoopemzkqepOBrcyt1OnPkLIM0s3GMqR46eo=" /></p> 
+<p><span>2017年全国各大主要城市</span><span></span></p> 
+<p><span><strong>最新房价工资排名出炉！</strong></span></p> 
+<p><img width="auto" data-src="B6YQMHIgmv4SKktwO19VonIf5O+lf67ccHojnFJqL4pLb5Wq0d6LCzaKZ75oCMqfkHDjpULE2ffpv7QYC98LtInaoPaUjiOCo8bqVbUkYCI=" /></p> 
+<p><span>近日，中商产业研究院公布了一份</span></p> 
+<p><strong><span>《2017年中国主要城市房价工资比排行榜》</span></strong></p> 
+<p><span>快来看看你生活的城市排第几</span></p> 
+<p><img width="auto" data-src="B6YQMHIgmv4SKktwO19VonIf5O+lf67ccHojnFJqL4rf6cEj8OA43+lo2ylIpdpfdsOxt+1uWQGlNo28bHB0cs9LZpCL0Gckj/mcfs7XdXc=" /></p> 
+<p><span>以下排名按照</span></p> 
+<p><strong><span>城市房价工资比</span></strong></p> 
+<p><span>排序</span></p> 
+<p><span>1</span></p> 
+<p><span><strong><span>[</span>北京]</strong></span></p> 
+<p><span>平均房价：67951元/㎡</span></p> 
+<p><span>平均工资：9942元/月</span></p> 
+<p><span>房价工资比：6.83</span></p> 
+<p><img width="auto" data-src="B6YQMHIgmv4SKktwO19VonIf5O+lf67ccHojnFJqL4r5FYUSSnR1PJIotCIf32brnHRVHQj60Igs4Rs55CEEbcjxN/H1AgiIZ/PqxnaYrGI=" /></p> 
+<p><span>2</span></p> 
+<p><strong><span>[</span>厦门]</strong></p> 
+<p><span>平均房价：44235元/㎡</span></p> 
+<p><span>平均工资：7452元/月</span></p> 
+<p><span>房价工资比：5.94</span></p> 
+<p><img width="auto" data-src="B6YQMHIgmv4SKktwO19VonIf5O+lf67ccHojnFJqL4pSx9F1SGG6Yj3B1R4zAzEI0ynd0+mv1Y3ooCWWJK7DzPllnDEiczAS0bSVDynMf9Q=" /></p> 
+<p><span>3</span></p> 
+<p><strong><span>[深圳</span>]</strong></p> 
+<p><span>平均房价：46879元/㎡</span></p> 
+<p><span>平均工资：8892元/月</span></p> 
+<p><span>房价工资比：5.27</span></p> 
+<p><img width="auto" data-src="B6YQMHIgmv4SKktwO19VonIf5O+lf67ccHojnFJqL4o3xGxDF2RUDu+pLrXvUV4o9pYZUhlRB7JxHNexcalMiuwvTrpywMpHFLAYCZF0bns=" /></p> 
+<p><span>4</span></p> 
+<p><strong><span>[上海</span>]</strong></p> 
+<p><span>平均房价：48384元/㎡</span></p> 
+<p><span>平均工资：9802元/月</span></p> 
+<p><span>房价工资比：4.94</span></p> 
+<p><img width="auto" data-src="B6YQMHIgmv4SKktwO19VonIf5O+lf67ccHojnFJqL4qisT5VjXZ87zMg5RYRi4PNLkHCNMxmOjWgPgqpTS6PCn1MD1c0fASOMfrv8AmetTw=" /></p> 
+<p><span>5</span></p> 
+<p><strong><span>[天津</span>]</strong></p> 
+<p><span>平均房价：26687元/㎡</span></p> 
+<p><span>平均工资：6733元/月</span></p> 
+<p><span>房价工资比：3.96</span></p> 
+<p><img width="auto" data-src="B6YQMHIgmv4SKktwO19VonIf5O+lf67ccHojnFJqL4q4wtnflXFDo1oXr5UDWWohfqc5KJhU5Q6yRuyWdCSFpMm+jWqs8HvZo963u0tEOJ4=" /></p> 
+<p><span>6</span></p> 
+<p><strong><span>[南京</span>]</strong></p> 
+<p><span>平均房价：26127元/㎡</span></p> 
+<p><span>平均工资：7342元/月</span></p> 
+<p><span>房价工资比：3.56</span></p> 
+<p><img width="auto" data-src="B6YQMHIgmv4SKktwO19VonIf5O+lf67ccHojnFJqL4pnFNxr2JzJ5BWo/fTpfrNFU/XQ29cSYHItK6brqsfSn5JfNYwEuXoz/Yts5haakJ0=" /></p> 
+<p><span>7</span></p> 
+<p><strong><span>[广州</span>]</strong></p> 
+<p><span>平均房价：26453元/㎡</span></p> 
+<p><span>平均工资：7996元/月</span></p> 
+<p><span>房价工资比：3.31</span></p> 
+<p><img width="auto" data-src="B6YQMHIgmv4SKktwO19VonIf5O+lf67ccHojnFJqL4pmWA6nXdomqhRCwFCAPs7YetuRjEn9v0s8HYL27NvVJJa/MCoR88uJhehUUHXJwjQ=" /></p> 
+<p><span>8</span></p> 
+<p><strong><span>[福州</span>]</strong></p> 
+<p><span>平均房价：21979元/㎡</span></p> 
+<p><span>平均工资：7073元/月</span></p> 
+<p><span>房价工资比：3.11</span></p> 
+<p><img width="auto" data-src="B6YQMHIgmv4SKktwO19VonIf5O+lf67ccHojnFJqL4rAM/SRMbCt0BokQgtgqo5sMjtnvuazB+FOIa6UkKfBZPlGQq8cxriAdEeoQfixfWc=" /></p> 
+<p><span>9</span></p> 
+<p><strong><span>[杭州</span>]</strong></p> 
+<p><span>平均房价：22934元/㎡</span></p> 
+<p><span>平均工资：7608元/月</span></p> 
+<p><span>房价工资比：3.01</span></p> 
+<p><img width="auto" data-src="B6YQMHIgmv4SKktwO19VonIf5O+lf67ccHojnFJqL4pjPt6JonVezKyHjlZmc/nexfnGwISDDUQPJ35ZzOoCNtXjeLBk7re+PpT4J+oW75k=" /></p> 
+<p>10</p> 
+<p><strong><span>[石家庄</span>]</strong></p> 
+<p><span>平均房价：22934元/㎡</span></p> 
+<p><span>平均工资：7608元/月</span></p> 
+<p><span>房价工资比：3.01</span></p> 
+<p><img width="auto" data-src="B6YQMHIgmv4SKktwO19VonIf5O+lf67ccHojnFJqL4rOQ6+bIR7UEfVn7B+BKnc0DtIn/9mpTndz33B/7B4C7kKbcPxaR8eMqpfwQ41UfYU=" /></p> 
+<p>11</p> 
+<p><strong><span>[武汉</span>]</strong></p> 
+<p><span>平均房价：15716元/㎡</span></p> 
+<p><span>平均工资：6769元/月</span></p> 
+<p><span>房价工资比：2.32</span></p> 
+<p><img width="auto" data-src="B6YQMHIgmv4SKktwO19VonIf5O+lf67ccHojnFJqL4pNd4FnU2XDegB/Chl28R/sMe4UnRQAcmE8NlLl99E+ruZQNil5oim/bEU/pMcv2yA=" /></p> 
+<p>12</p> 
+<p><strong><span>[青岛</span>]</strong></p> 
+<p><span>平均房价：15405元/㎡</span></p> 
+<p><span>平均工资：6651元/月</span></p> 
+<p><span>房价工资比：2.32</span></p> 
+<p><img width="auto" data-src="B6YQMHIgmv4SKktwO19VonIf5O+lf67ccHojnFJqL4qb9BD/9Yf4/xDb2KIGH8RwQIKPJXZ3oOdLQCaDYD578ALEhOHBHJEZf5kmBvSHflY=" /></p> 
+<p>13</p> 
+<p><strong><span>[济南</span>]</strong></p> 
+<p><span>平均房价：14800元/㎡</span></p> 
+<p><span>平均工资：6487元/月</span></p> 
+<p><span>房价工资比：2.28</span></p> 
+<p><img width="auto" data-src="B6YQMHIgmv4SKktwO19VonIf5O+lf67ccHojnFJqL4r+ODpP/owKrDEH5ko3dWFKI01vZyucaVq8FsWrsivZSpLWv1mMzoTG4OND6F3sNsw=" /></p> 
+<p>14</p> 
+<p><strong><span>[合肥</span>]</strong></p> 
+<p><span>平均房价：14495元/㎡</span></p> 
+<p><span>平均工资：6684元/月</span></p> 
+<p><span>房价工资比：2.17</span></p> 
+<p><img width="auto" data-src="B6YQMHIgmv4SKktwO19VonIf5O+lf67ccHojnFJqL4rPW3DI6XpndXhRYG9aXWq1uhhIgNE1u5tnqlkWXDgVSRg9jR4Jr6SXKCSz8FAASrc=" /></p> 
+<p>15</p> 
+<p><strong><span>[苏州</span>]</strong></p> 
+<p><span>平均房价：15728元/㎡</span></p> 
+<p><span>平均工资：7548元/月</span></p> 
+<p><span>房价工资比：2.08</span></p> 
+<p><img width="auto" data-src="B6YQMHIgmv4SKktwO19VonIf5O+lf67ccHojnFJqL4qq0y7o8rmAeSoAELF873q3XIMjG3UIjA9yeEPRFb0HBMS04sUuPBFkElUrP+j9VYs=" /></p> 
+<p>16</p> 
+<p><strong><span>[郑州</span>]</strong></p> 
+<p><span>平均房价：13574元/㎡</span></p> 
+<p><span>平均工资：6692元/月</span></p> 
+<p><span>房价工资比：2.03</span></p> 
+<p><img width="auto" data-src="B6YQMHIgmv4SKktwO19VonIf5O+lf67ccHojnFJqL4pZi9Wln5GvfDm7+uUZFYdjgeo6CT7Tqo1Lpy4KfdRHpksTod2u16VRNLf7qMK6FUE=" /></p> 
+<p>17</p> 
+<p><strong><span>[宁波</span>]</strong></p> 
+<p><span>平均房价：13259元/㎡</span></p> 
+<p><span>平均工资：7680元/月</span></p> 
+<p><span>房价工资比：1.73</span></p> 
+<p><img width="auto" data-src="B6YQMHIgmv4SKktwO19VonIf5O+lf67ccHojnFJqL4og+8L/g/7E6jWxEx2U9SlhK7mjtkojp5SbDjO6PsOt2JEqFY9QV3tWxvB4ZPBYsq8=" /></p> 
+<p>18</p> 
+<p><strong><span>[东莞</span>]</strong></p> 
+<p><span>平均房价：12242元/㎡</span></p> 
+<p><span>平均工资：7862元/月</span></p> 
+<p><span>房价工资比：1.56</span></p> 
+<p><img width="auto" data-src="B6YQMHIgmv4SKktwO19VonIf5O+lf67ccHojnFJqL4qruOkuOILZoqumJBZQqxeWWHXCSd/JcOkttkjYGEy8hygzVVlXG2WZPbd5AFQhVFs=" /></p> 
+<p>19</p> 
+<p><strong><span>[大连</span>]</strong></p> 
+<p><span>平均房价：10263元/㎡</span></p> 
+<p><span>平均工资：6669元/月</span></p> 
+<p><span>房价工资比：1.55</span></p> 
+<p><img width="auto" data-src="B6YQMHIgmv4SKktwO19VonIf5O+lf67ccHojnFJqL4pyKoDDK2blt7AO1gJlavCNwHnQQWUpkGp9IYcojILqPWW+ngXJj2BDM0Ug625F/t4=" /></p> 
+<p>20</p> 
+<p><strong><span>[南昌</span>]</strong></p> 
+<p><span>平均房价：9824元/㎡</span></p> 
+<p><span>平均工资：6631元/月</span></p> 
+<p><span>房价工资比：1.47</span></p> 
+<p><img width="auto" data-src="B6YQMHIgmv4SKktwO19VonIf5O+lf67ccHojnFJqL4qEg1Fg1e4Mp+z4370SlNBUFmketgA1gOPRmXUPPmj0sPLrQZz9c+5TNQPRAphstYc=" /></p> 
+<p>21</p> 
+<p><strong><span>[无锡</span>]</strong></p> 
+<p><span>平均房价：10068元/㎡</span></p> 
+<p><span>平均工资：7021元/月</span></p> 
+<p><span>房价工资比：1.43</span></p> 
+<p><img width="auto" data-src="B6YQMHIgmv4SKktwO19VonIf5O+lf67ccHojnFJqL4pUqpoSD8WS3sL+5SE7I1fmYRN+Yqz7Lc+ycMruvEfV/WgJwHrM9JcKyX5n99kTUyI=" /></p> 
+<p>22</p> 
+<p><strong><span>[成都</span>]</strong></p> 
+<p><span>平均房价：9758元/㎡</span></p> 
+<p><span>平均工资：6941元/月</span></p> 
+<p><span>房价工资比：1.41</span></p> 
+<p><img width="auto" data-src="B6YQMHIgmv4SKktwO19VonIf5O+lf67ccHojnFJqL4pR+8NwfYU2zIEbAoD5w1ym9RC4h+lJ7IDWKzDquQUoNUyvXraSV/maoQjTK30/Tl0=" /></p> 
+<p>23</p> 
+<p><strong><span>[兰州</span>]</strong></p> 
+<p><span>平均房价：9412元/㎡</span></p> 
+<p><span>平均工资：6704元/月</span></p> 
+<p><span>房价工资比：1.40</span></p> 
+<p><img width="auto" data-src="B6YQMHIgmv4SKktwO19VonIf5O+lf67ccHojnFJqL4qn2OrX9eKhFpe4Ogx9P6s8P6qKdjxdxTn1w991vKmq/zVfQ/nLsPTKhcmqPhd3ulk=" /></p> 
+<p>24</p> 
+<p><strong><span>[佛山</span>]</strong></p> 
+<p><span>平均房价：10782元/㎡</span></p> 
+<p><span>平均工资：7873元/月</span></p> 
+<p><span>房价工资比：1.37</span></p> 
+<p><img width="auto" data-src="B6YQMHIgmv4SKktwO19VonIf5O+lf67ccHojnFJqL4pndw6MJNx9QArD8AuBko4VBy6bLwKpIxZL/3X6TSWR/1YFWFBNw00rxXFXlDfkJnw=" /></p> 
+<p>25</p> 
+<p><strong><span>[哈尔滨</span>]</strong></p> 
+<p><span>平均房价：8002元/㎡</span></p> 
+<p><span>平均工资：5915元/月</span></p> 
+<p><span>房价工资比：1.35</span></p> 
+<p><img width="auto" data-src="B6YQMHIgmv4SKktwO19VonIf5O+lf67ccHojnFJqL4o2BvdLltCeyrfAGqtu/B0m9B8hYWvi9iPgcLeGI448rATmutbNww+VDFV4UAF6ipk=" /></p> 
+<p>26</p> 
+<p><strong><span>[太原</span>]</strong></p> 
+<p><span>平均房价：8463元/㎡</span></p> 
+<p><span>平均工资：6355元/月</span></p> 
+<p><span>房价工资比：1.33</span></p> 
+<p><img width="auto" data-src="B6YQMHIgmv4SKktwO19VonIf5O+lf67ccHojnFJqL4pyRCxSZk0lK2OCPFj0F1RpgY4POKVPjxXR9hya+uAhvcTosW+hRNmguVDiIDo2rxo=" /></p> 
+<p>27</p> 
+<p><strong><span>[长沙</span>]</strong></p> 
+<p><span>平均房价：8795元/㎡</span></p> 
+<p><span>平均工资：6660元/月</span></p> 
+<p><span>房价工资比：1.32</span></p> 
+<p><img width="auto" data-src="B6YQMHIgmv4SKktwO19VonIf5O+lf67ccHojnFJqL4p4eF5DDv+vP9nc/zJ4F7VWPbjpmMYrcO9Vfqi3TRR90K+o8hdjxkoIRyZeUj+BTT8=" /></p> 
+<p>28</p> 
+<p><strong><span>[昆明</span>]</strong></p> 
+<p><span>平均房价：8900元/㎡</span></p> 
+<p><span>平均工资：6862元/月</span></p> 
+<p><span>房价工资比：1.30</span></p> 
+<p><img width="auto" data-src="B6YQMHIgmv4SKktwO19VonIf5O+lf67ccHojnFJqL4q6PXtdOaRvv1tpn9+wAGQEwuVdXZ0cWvKlTIoZraG4MQ9ES/LfxBjLBjszk3njNH0=" /></p> 
+<p>29</p> 
+<p><strong><span>[海口</span>]</strong></p> 
+<p><span>平均房价：9421元/㎡</span></p> 
+<p><span>平均工资：7407元/月</span></p> 
+<p><span>房价工资比：1.27</span></p> 
+<p><img width="auto" data-src="B6YQMHIgmv4SKktwO19VonIf5O+lf67ccHojnFJqL4oyf2XeqkDeGmJFC9Tu9+0A+6iqER5ntRiXYmKzTDzgp77Vhrpq+RfJAUtw8QD416U=" /></p> 
+<p>30</p> 
+<p><strong><span>[西安</span>]</strong></p> 
+<p><span>平均房价：7556元/㎡</span></p> 
+<p><span>平均工资：6197元/月</span></p> 
+<p><span>房价工资比：1.22</span></p> 
+<p><img width="auto" data-src="B6YQMHIgmv4SKktwO19VonIf5O+lf67ccHojnFJqL4r59UvYBT1WlnxmhnwrYB0EnIomn2ziSQYQcjP3wxORMoH8FXqvWqJ/7imFUWh7VKk=" /></p> 
+<p>31</p> 
+<p><strong><span>[重庆</span>]</strong></p> 
+<p><span>平均房价：8226元/㎡</span></p> 
+<p><span>平均工资：6971元/月</span></p> 
+<p><span>房价工资比：1.18</span></p> 
+<p><img width="auto" data-src="B6YQMHIgmv4SKktwO19VonIf5O+lf67ccHojnFJqL4oihzFbQ+ggL+4hlYTjRmA+MJL6bEuRsNtU3s6fTRi0H/k0bDMybaQ495XYww0D7bs=" /></p> 
+<p>32</p> 
+<p><strong><span>[烟台</span>]</strong></p> 
+<p><span>平均房价：7406元/㎡</span></p> 
+<p><span>平均工资：6274元/月</span></p> 
+<p><span>房价工资比：1.18</span></p> 
+<p><img width="auto" data-src="B6YQMHIgmv4SKktwO19VonIf5O+lf67ccHojnFJqL4osdvvoHqM+UcviX+QrQgVudgNYCmkhs1Pg27oqk4PsXLSQPaYuZz+zNz3/BgzLRHQ=" /></p> 
+<p>33</p> 
+<p><strong><span>[南宁</span>]</strong></p> 
+<p><span>平均房价：8146元/㎡</span></p> 
+<p><span>平均工资：6964元/月</span></p> 
+<p><span>房价工资比：1.17</span></p> 
+<p><img width="auto" data-src="B6YQMHIgmv4SKktwO19VonIf5O+lf67ccHojnFJqL4rGQt44q6JlPGpQprOfMKnOiuMZYX/wT4OUs4VeGTdC+nCbTxG9U9YbLSQ1S9uFBhU=" /></p> 
+<p>34</p> 
+<p><strong><span>[沈阳</span>]</strong></p> 
+<p><span>平均房价：7148元/㎡</span></p> 
+<p><span>平均工资：6367元/月</span></p> 
+<p><span>房价工资比：1.12</span></p> 
+<p><img width="auto" data-src="B6YQMHIgmv4SKktwO19VonIf5O+lf67ccHojnFJqL4rqqvV54wPV1EogsYqXnpcm6C/EzZCpknO2SrlQ+JcBEChRxOPV8AacOcyIsE3RMg4=" /></p> 
+<p>35</p> 
+<p><strong><span>[长春</span>]</strong></p> 
+<p><span>平均房价：6778元/㎡</span></p> 
+<p><span>平均工资：6090元/月</span></p> 
+<p><span>房价工资比：1.11</span></p> 
+<p><img width="auto" data-src="B6YQMHIgmv4SKktwO19VonIf5O+lf67ccHojnFJqL4rEuOldR/u1gvYLwslFnqWRB7y5aYg1bdJeBIDws9OpJb0glDGsr6WaMfLP+FIbeNQ=" /></p> 
+<p>36</p> 
+<p><strong><span>[乌鲁木齐</span>]</strong></p> 
+<p><span>平均房价：6665元/㎡</span></p> 
+<p><span>平均工资：7095元/月</span></p> 
+<p><span>房价工资比：0.94</span></p> 
+<p><img width="auto" data-src="B6YQMHIgmv4SKktwO19VonIf5O+lf67ccHojnFJqL4pTGJzl0rFa5zzLHgS59IwC63R9EVlDy0VP1M9f+2BINFjKLFOBoQHg6iWttCUHKf0=" /></p> 
+<p>37</p> 
+<p><strong><span>[贵阳</span>]</strong></p> 
+<p><span>平均房价：6406元/㎡</span></p> 
+<p><span>平均工资：7023元/月</span></p> 
+<p><span>房价工资比：0.91</span></p> 
+<p><img width="auto" data-src="B6YQMHIgmv4SKktwO19VonIf5O+lf67ccHojnFJqL4oil70xlWBlaMnG7d8e00xdtz4pzFU3sQt/vyJaqUw5wVcu/1i93dRX/25Yhbx5CGQ=" /></p> 
+<p><span><strong><span>最后附上排名表</span></strong></span></p> 
+<p><span><strong><span>▽</span></strong></span></p> 
+<p><img width="auto" data-src="B6YQMHIgmv4SKktwO19VonIf5O+lf67ccHojnFJqL4rh9q02p3O7TLOw8WLGRTM7d8OAjZyNqTHOynAsweQuvtlIiZ4T4mMTtwCpRI7B03c=" /></p> 
+<p><span>数据来源：中商产业研究院</span></p> 
+<p><span>看了这么多城市的房价工资</span></p> 
+<p><span>你对所在城市的房价和工资还算满意吗？</span></p> 
+<p><span>来源：昆明广播电视台，如有侵权请联系后台删除！</span></p> 
+<blockquote></blockquote> 
+<p><span>内容整理网络， 不代表本公众号观点</span><span></span></p> 
+<p>如有侵权请后台联系删除<a href="//www.sohu.com/?strategyid=00001 " target="_blank" title="点击进入搜狐首页" id="backsohucom" style="white-space: nowrap;"><span class="backword"><i class="backsohu"></i>返回搜狐，查看更多</span></a></p>          <!-- 政务账号添加来源标示处理 -->
+      <!-- 政务账号添加来源标示处理 -->
+      <p data-role="editor-name">责任编辑：<span></span></p>
+</article>
+<script>
+    (function() {
+        function getBrandHtml() {
+            var brands = [],
+            html = '';
+                        for(var i = 0; i < brands.length; i++) {
+                var brand = brands[i];
+                if(brands.length == i+1) {
+                    html+= '<a class="username-link" href="'+brand.url+'" target="_blank">'+brand.name+'</a>';
+                } else {
+                    html+= '<a class="username-link" href="'+brand.url+'" target="_blank">'+brand.name+'</a>、';
+                }
+            }
+            return html;
+
+        };
+        if(document.getElementById('linkBtn')){
+            document.getElementById('linkBtn').onclick = function() {
+                $('#brands').removeClass('brand');
+                $('#tipInfo').text('已实名回应');
+                $('#linkBtn').remove();
+                $('.real-response .content').css('line-height', '20px');
+                $('.real-response .time').css('line-height', '20px');
+            };
+
+            document.getElementById('brands').innerHTML = getBrandHtml();
+        };
+    })();
+</script>
+    <div id="atricleVote"></div>
+  <div class="statement">声明：该文观点仅代表作者本人，搜狐号系信息发布平台，搜狐仅提供信息存储空间服务。</div>    <div class="bottom-relate-wrap clear type-3">
+    
+    <!-- 点赞选择方案2，contentLike对应值为3 -->
+            <div class="article-like" id="article-like" data-like-type="type-3">
+</div>        <div class="read-wrap">
+        <span class="read-num">阅读 (<em data-role="pv" data-val="$articleStat.pv"></em>)</span>
+    </div>
+</div>
+    
+                            <div id="sohu-play-content"></div>
+                        </div>
+                    </div>
+                                        <div data-spm="middle-banner-ad">
+                                            </div>
+                    <div class="article-allsee clear" id="articleAllsee">
+    <div class="title">
+        <span>
+            <em class="ln"></em>
+            大家都在看
+        </span>
+    </div>
+    <div class="allsee-list clear" id="allseeList" data-spm="fd-link">
+    </div>
+</div>                    <div class="god-article-bottom" id="god_bottom_banner" data-spm="ad-text-bottom" style="display:block">
+</div>
+<div class="user-god clear" id="user-post" style="display:none">
+
+</div>                    <div class="comment" id="comment_area" data-spm="comment"  data-abdata="1">
+    <div id="mp-comment" sid="153127827"></div> 
+</div>                    
+<div class="groom-read">
+    <div class="title"><span><em class="ln"></em>推荐阅读</span></div>
+    <!--  -->
+    <div class="news-list clear" id="main-news" style="min-height:1000px">
+    </div>
+</div>
+                </div>
+                <div class="sidebar right" id="right-side-bar" data-a="${isBaiDuAd}">
+    
+    
+    <div class="search-right" id="search" data-spm="search-box"></div>
+
+    <div class="godA" id="nav_button" data-spm="ad-right-sponsor">
+
+    </div>
+    <div class="godR" id="god_1" data-spm="ad-sq1" style="display: block;">
+
+    </div>
+    <div id="god_1_2" style="padding:10px 20px; display: none;" data-spm="ad-sq1">
+
+    </div>
+
+        
+    <div data-role="hot-pic" class="clearfix bord hot-atlas"></div>
+    <div data-role="four-pic" class="clearfix hot-atlas"></div>
+    
+    
+    <div class="godR" id="god_2" data-spm="ad-sq2" style="display:block">
+
+    </div>
+    <div id="god_2_2" style="padding:10px 20px; display: none;" data-spm="ad-sq2">
+
+    </div>
+    
+<div class="hot-article clear bord" id="hot-news" data-spm="tw">
+
+</div>
+    <div class="godR" id="god_3" data-spm="ad-sq3" style="display:block">
+
+    </div>
+    <div id="god_3_2" style="padding:10px 20px; display: none;" data-spm="ad-sq3">
+        
+    </div>
+    
+<div class="bord clear recommend" id="recommend-writer" data-spm="mp">
+
+</div>
+    <div class="godR" id="god_4" data-spm="ad-sq4" style="display:block">
+
+    </div>
+    <div id="god_4_2" style="padding:10px 20px; display: none;" data-spm="ad-sq4">
+        
+    </div>
+    <div class="article-recom right-side clear" id="sogou-words">
+</div>    <div id="god_5" style="padding:10px 20px;" data-spm="sqfive-ad">
+        
+    </div>
+     <div class="pages-fun  " id="pages-fun"></div>
+    <div id="god_fix_container" class="right-fixed" style="display:none;">
+        <div class="godR" id="god_fix_1" data-spm="ad-sq6" style="display: block;">
+
+        </div>
+        <div id="god_6_2" class="god-ad-fix" style="display: none; overflow: hidden;" data-spm="ad-sq6">
+
+        </div> 
+    </div>
+     <div id="fixed-view" data-rel="#hot-news" style="z-index:2">
+    </div>
+</div>
+
+
+
+             </div>
+            <div id="float-btn" class="float-links"></div>             <div class="sohu-khd" data-role="wp-ad"><a href="javascript:void(0)" class="close-khd"></a><a href="https://www.microsoft.com/zh-cn/store/p/%E6%90%9C%E7%8B%90uwp/9nb9229mmbjh" target="_blank" class="download-khd"><i class="icon khd-d-icon"></i>免费获取</a></div>
+            <div id="pop-news" class="pop-news"></div>            <div class="left-bottom-float" id="left-bottom-god" data-spm="ad-ss">
+</div>        </div>
+            <div id="sohu-mod" class="sohu-mod">
+  <div class="area sohu-frag">
+    <div class="left sohu-news">
+      <div class="title">今日搜狐热点</div>
+      <div class="list">
+        <ul>
+                  </ul>
+      </div>
+    </div>
+    <div class="left auto-sohu">
+      <div class="count-down"><span>6</span>秒后</div>
+      <div class="go-sohu"><a href="http://www.sohu.com?strategyid=00004">进入搜狐首页</a></div>
+      <a href="#" target="_blank" class="close-sohu"></a>
+    </div>
+  </div>
+</div>
+<div id="sohu-remend" class="sohu-remend">
+    <div class="area sohu-remend-box">
+        <div class="remend-tt left">今日推荐</div>
+        <div class="left sohu-pp">
+            <ul>
+                            </ul>
+        </div>
+        <div class="right sohu-do">
+            <a data-clev="10220279" href="http://www.sohu.com?strategyid=00004"><div class="go-sohu">进入搜狐首页</div></a>
+            <a data-clev="10220280" href="//shang.qq.com/wpa/qunwpa?idkey=04e47b9e7004c967962f52532465719ae8a30cf05413c11934ec121fb7e2dd62" target="_blank" class="feedback-link">意见反馈</a>
+            <a data-clev="10220281" href="javascript:void(0)" target="_blank" class="close-remend"></a>
+        </div>
+    </div>
+    <div class="sohu-remend-layer"></div>
+</div>            
+
+<script src="//statics.itc.cn/web/static/js/lib-61587d9fb8.js"></script>
+<script src="//statics.itc.cn/pc_channel_script/pc_channel_script/jquery.xdomainrequest.min.js
+"></script>
+<script src="//39d0825d09f05.cdn.sohucs.com/sdk/passport-4.0.3.js"></script>
+<!--<script src="//statics.itc.cn/web/static/js/ie8hack-07e05e83f1.js"></script>-->
+<script src="//txt.go.sohu.com/ip/soip"></script>
+<script src="//statics.itc.cn/spm/prod/js/1.0.2/index.js"></script>
+<script src="//statics.itc.cn/web/static/js/main-b58f666f41.js"></script>
+<script src="//js.sohu.com/pv.js"></script>
+            <script>
+try{console.log("执行成功")
+        window.sohu_mp.article({
+        channel_id: "15",
+        news_id: "153127827",
+        cms_id: "$mpNews.cmsId",
+        media_id: "726350",
+        passport: "zzgxqzf@sohu.com",
+        weboUrl: "https://mp.sohu.com/profile?xpt=",
+        title: "2017全国城市房价、工资排行榜出炉！",
+        channel_url:"//business.sohu.com",
+        categoryId:"996",
+        //abData_fd用于abtest
+        abData:"{}",
+        abData_fd:"",
+        abData_tw:"",
+        rightNewStyle: "0",
+        originalId:"0",
+        originalStatus:"0",
+        hasVoteInfo: "false",
+        isBaiDuAd: "",
+        isPure: "${pure}",
+        reprint: false,
+        reprintSign: "",
+        secureScore: '100',
+        sGrade: '0',
+        mpNewsExt:{
+            "modelId":""
+        }});
+}
+catch(e){
+    var html = '<div class="err-js">' +
+                '<span><em class="icon err-js-icon"></em>JS加载错误，请重新加载。</span>' +
+                '<a href="javascript:window.location.reload()" target="_blank" class="cached-btn"' +
+                '><em class="icon-cached"></em>刷新</a></div>';
+    $(document.body).prepend(html);
+    // Raven.captureException(e);
+    console.error("发生错误",e);
+}
+</script>
+<script>
+    (function () {
+        if(window.irs_ua === false) return
+        var ra = document.createElement('script');
+        ra.type = 'text/javascript';
+        ra.async = true;
+        ra.src = '//statics.itc.cn/iwtReport/iwt1.0.1.js'; //iwt_1.0.1.js的URL位置，请客户自行托管JS文件，修改此值
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ra, s);
+    })();    
+</script>
+<!--[if lt IE 8]>
+<script type="text/javascript">
+(function(){
+    var ua = navigator.userAgent;
+    var version;
+    var html = '<div class="area clear">' +
+        '<div class="ie-low">' +
+        '<p>您的浏览器版本过低<br>为了更好的体验，请升级你的浏览器。</p>' +
+        '<h5><a href="https://ie.sogou.com" target="_blank" class="upgrade-btn">马上升级</a></h5>' +
+        '</div></div>';
+    if (/MSIE ([^;]+)/.test(ua)) {
+        version = parseInt(RegExp["$1"]);
+        if (version<8) {
+            document.body.innerHTML=html;
+            var reg = new RegExp("(^| )SUV=([^;]*)(;|$)");
+            var suvs = unescape(document.cookie.match(reg)[2]); 
+            var spv_server_src = "http://pv.sohu.com/action.gif?actionId=10078&SUV="+suvs;
+            var scripts = document.createElement('script');
+            scripts.src = spv_server_src;
+            document.body.appendChild(scripts);   
+            Raven.captureException(new Error('ie'+version));   
+        }
+    }
+})()
+</script>
+<![endif]-->
+<script src="//images.sohu.com/bill/default/sohu-require.js"></script>
+<script type="text/javascript"> require(["sjs/matrix/ad/passion"]);</script>
+<script type="text/javascript" src="//www.sohu.com/sohuflash_1.js"></script>
+<script type="text/javascript" src="//images.sohu.com/bill/s2015/jscript/lib/sjs/matrix/ad/form/delivery.js"></script>
+<script type="text/javascript" src="//images.sohu.com/bill/s2015/jscript/lib/sjs/matrix/pv/pagePVmonitor.js"></script>
+<!-- <script src="//statics.itc.cn/spm/prod/js/1.0.1/index.js"></script> -->
+
+<!-- 文章安全分低于等于10分不执行seo优化 -->
+<script>
+    (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+        }
+        else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+<!-- 百度联盟广告，多条广告如下脚本只需引入一次 -->
+<script type="text/javascript" src="https://cpro.baidustatic.com/cpro/ui/c.js" async="async" defer="defer"></script>
+        <!-- 头条SEO上报JS -->
+        <script>
+            (function(){
+                var el = document.createElement("script");
+                el.src = "https://lf1-cdn-tos.bytegoofy.com/goofy/ttzz/push.js?2a4809d3df819205088b399807ab2dfb6008be35d3aa4b8fc28d959eee7f7b82c112ff4abe50733e0ff1e1071a0fdc024b166ea2a296840a50a5288f35e2ca42";
+                el.id = "ttzz";
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(el, s);
+            })(window)
+        </script>
+        <script>
+            if (window && window.performance && typeof window.performance.now === 'function') {
+                !window.MptcfePerf ? window.MptcfePerf = { csrfpst: +new Date() } : window.MptcfePerf.csrfpst = +new Date()
+            }
+        </script>
+    </body>
+</html>

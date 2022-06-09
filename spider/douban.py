@@ -17,9 +17,9 @@ import re
 def open_url(url):
     # 使用代理
     # proxies = {'http': '127.0.0.1:1080', 'https': '127.0.0.1:1080'}
-    header = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.30'}
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.30'}
     # res = requests.get(url, headers=header, proxies=proxies)
-    res = requests.get(url, headers=header)
+    res = requests.get(url, headers=headers)
     return res
 
 def find_movies(res):
