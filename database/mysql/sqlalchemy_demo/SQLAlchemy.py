@@ -1,6 +1,6 @@
-# author: zong
-# date: 2022/6/15 22:48
+#!/usr/bin/env python
 
+from distutils.log import warn as printf
 from os.path import dirname
 from random import randrange as rand
 from sqlalchemy import Column, Integer, String, create_engine, exc, orm
@@ -13,18 +13,14 @@ DSNs = {
 }
 
 Base = declarative_base()
-
-
 class Users(Base):
     __tablename__ = 'users'
-    login = Column(String(NAMELEN))
+    login  = Column(String(NAMELEN))
     userid = Column(Integer, primary_key=True)
     projid = Column(Integer)
-
     def __str__(self):
         return ''.join(map(tformat,
-                           (self.login, self.userid, self.projid)))
-
+            (self.login, self.userid, self.projid)))
 
 class SQLAlchemyTest(object):
     def __init__(self, dsn):
@@ -47,31 +43,31 @@ class SQLAlchemyTest(object):
 
     def insert(self):
         self.ses.add_all(
-            Users(login=who, userid=userid, projid=rand(1, 5)) \
+            Users(login=who, userid=userid, projid=rand(1,5)) \
             for who, userid in randName()
         )
         self.ses.commit()
 
     def update(self):
-        fr = rand(1, 5)
-        to = rand(1, 5)
+        fr = rand(1,5)
+        to = rand(1,5)
         i = -1
         users = self.ses.query(
             Users).filter_by(projid=fr).all()
         for i, user in enumerate(users):
             user.projid = to
         self.ses.commit()
-        return fr, to, i + 1
+        return fr, to, i+1
 
     def delete(self):
-        rm = rand(1, 5)
+        rm = rand(1,5)
         i = -1
         users = self.ses.query(
             Users).filter_by(projid=rm).all()
         for i, user in enumerate(users):
             self.ses.delete(user)
         self.ses.commit()
-        return rm, i + 1
+        return rm, i+1
 
     def dbDump(self):
         printf('\n%s' % ''.join(map(cformat, FIELDS)))
@@ -80,12 +76,11 @@ class SQLAlchemyTest(object):
             printf(user)
         self.ses.commit()
 
-    def __getattr__(self, attr):  # use for drop/create
+    def __getattr__(self, attr):    # use for drop/create
         return getattr(self.users, attr)
 
     def finish(self):
         self.ses.connection().close()
-
 
 def main():
     printf('*** Connect to %r database' % DBNAME)
@@ -122,7 +117,6 @@ def main():
     orm.drop()
     printf('\n*** Close cxns')
     orm.finish()
-
 
 if __name__ == '__main__':
     main()
