@@ -1,5 +1,6 @@
 import tablib
 
+'''操作数据集中指定的行和列'''
 names = ['Kenneth Reitz', 'Bessie Monke']
 data = tablib.Dataset()
 for name in names:
