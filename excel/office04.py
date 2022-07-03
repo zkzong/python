@@ -34,4 +34,4 @@ chart.set_categories(cats)
 
 ws.add_chart(chart, "A10")
 
-wb.save("area.xlsx")
+wb.save("file/third/area.xlsx")
