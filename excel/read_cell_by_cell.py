@@ -2,7 +2,7 @@ import os
 import pyexcel as pe
 def main(base_dir):
     # 读取的文件"example.xlsm"
-    spreadsheet = pe.get_sheet(file_name=os.path.join(base_dir, "file/example.csv"))
+    spreadsheet = pe.get_sheet(file_name=os.path.join(base_dir, "file/third/example.csv"))
 
     # 遍历每一行
     for r in spreadsheet.row_range():

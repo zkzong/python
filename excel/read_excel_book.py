@@ -2,7 +2,7 @@ import os
 import pyexcel as pe
 
 def main(base_dir):
-    book = pe.get_book(file_name=os.path.join(base_dir, "file/multiple-sheets-example.xls"))
+    book = pe.get_book(file_name=os.path.join(base_dir, "file/third/multiple-sheets-example.xls"))
 
     # 默认的迭代器为Boo实例
     for sheet in book:

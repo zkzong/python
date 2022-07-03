@@ -29,11 +29,11 @@ data = [
     ["Smith", 4.2, datetime.date(2014, 11, 12)]
 ]
 pyexcel.save_as(array=data,
-                dest_file_name="file/birth.xls")
+                dest_file_name="file/third/birth.xls")
 
 # 导入到Excel文件
 session = Session()  # obtain a sql session
-pyexcel.save_as(file_name="file/birth.xls",
+pyexcel.save_as(file_name="file/third/birth.xls",
                 name_columns_by_row=0,
                 dest_session=session,
                 dest_table=BirthRegister)

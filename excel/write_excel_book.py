@@ -7,7 +7,7 @@ def main(base_dir):
         "Sheet 2": [['X', 'Y', 'Z'], [1, 2, 3], [4, 5, 6]],
         "Sheet 3": [['O', 'P', 'Q'], [3, 2, 1], [4, 3, 2]]
     }
-    pe.save_book_as(bookdict=data, dest_file_name="file/multiple-sheets1.xls")
+    pe.save_book_as(bookdict=data, dest_file_name="file/third/multiple-sheets1.xls")
 
 if __name__ == '__main__':
     main(os.getcwd())

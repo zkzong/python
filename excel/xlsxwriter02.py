@@ -1,5 +1,5 @@
 import xlsxwriter
-filename = 'file/Expenses01.xlsx'
+filename = 'file/third/Expenses01.xlsx'
 test_book = xlsxwriter.Workbook(filename)
 worksheet = test_book.add_worksheet('what')
 

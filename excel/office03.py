@@ -1,6 +1,6 @@
 import openpyxl
 
-wb=openpyxl.load_workbook("file/template.xlsx")
+wb=openpyxl.load_workbook("file/third/template.xlsx")
 the_list =[]
 
 while True:

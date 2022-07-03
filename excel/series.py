@@ -3,7 +3,7 @@ import pyexcel as pe
 import json
 
 def main(base_dir):
-    sheet = pe.get_sheet(file_name=os.path.join(base_dir, "file/example_series.xls"),
+    sheet = pe.get_sheet(file_name=os.path.join(base_dir, "file/third/example_series.xls"),
                          name_columns_by_row=0)
     print(json.dumps(sheet.to_dict()))
     # 获取列标题
