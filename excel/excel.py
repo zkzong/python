@@ -20,7 +20,7 @@ wb.save('demo.xlsx')
 
 
 # 打开excel文件
-wb = openpyxl.load_workbook('豆瓣TOP250电影.xlsx')
+wb = openpyxl.load_workbook('file/豆瓣TOP250电影.xlsx')
 print(type(wb))
 
 # 获取工作表
@@ -89,7 +89,7 @@ ws1.unmerge_cells('A1:C3')
 wb.save('demo.xlsx')
 
 # 冻结窗口
-openpyxl.load_workbook('demo.xlsx')
+openpyxl.load_workbook('file/demo.xlsx')
 ws = wb.active
 # B8单元格上面和左面的被冻结
 ws.freeze_panes = 'B8'
@@ -194,7 +194,7 @@ wb.save('number.xlsx')
 print('SUM' in FORMULAE)
 print('SAM' in FORMULAE)
 
-wb = load_workbook('test.xlsx')
+wb = load_workbook('file/test.xlsx')
 ws = wb['Sheet']
 for row in ws.iter_rows(min_col=2, min_row=2, max_col=5, max_row=5):
     ws[row[3].coordinate] = '=SUM(%s:%s)' % (row[0].coordinate, row[2].coordinate)
