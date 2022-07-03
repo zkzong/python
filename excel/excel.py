@@ -16,11 +16,11 @@ ws['A1'] = 520
 # 第二行
 ws.append([1, 2, 3])
 ws['A3'] = datetime.datetime.now()
-wb.save('file/demo.xlsx')
+wb.save('file/fishc/demo.xlsx')
 
 
 # 打开excel文件
-wb = openpyxl.load_workbook('file/豆瓣TOP250电影.xlsx')
+wb = openpyxl.load_workbook('file/fishc/豆瓣TOP250电影.xlsx')
 print(type(wb))
 
 # 获取工作表
@@ -62,7 +62,7 @@ for each_row in ws.iter_rows(min_row=2, min_col=1, max_row=4, max_col=2):
 # 拷贝工作表
 new = wb.copy_worksheet(ws)
 print(type(new))
-wb.save('file/豆瓣TOP250电影.xlsx')
+wb.save('file/fishc/豆瓣TOP250电影.xlsx')
 
 # 个性化工作表标签栏
 wb = openpyxl.Workbook()
@@ -74,30 +74,30 @@ ws1.sheet_properties.tabColor = 'FF0000'
 ws2.sheet_properties.tabColor = '00FF00'
 ws3.sheet_properties.tabColor = '0000FF'
 ws4.sheet_properties.tabColor = '8B008B'
-wb.save('file/demo.xlsx')
+wb.save('file/fishc/demo.xlsx')
 
 # 调整行高和列宽
 ws2.row_dimensions[2].height = 100
 ws2.column_dimensions['c'].width = 50
-wb.save('file/demo.xlsx')
+wb.save('file/fishc/demo.xlsx')
 
 # 合并和拆分单元格
 ws1.merge_cells('A1:C3')
 ws1['A1'] = '这是一个合并单元格'
-wb.save('file/demo.xlsx')
+wb.save('file/fishc/demo.xlsx')
 ws1.unmerge_cells('A1:C3')
-wb.save('file/demo.xlsx')
+wb.save('file/fishc/demo.xlsx')
 
 # 冻结窗口
-openpyxl.load_workbook('file/demo.xlsx')
+openpyxl.load_workbook('demo.xlsx')
 ws = wb.active
 # B8单元格上面和左面的被冻结
 ws.freeze_panes = 'B8'
-wb.save('file/demo.xlsx')
+wb.save('file/fishc/demo.xlsx')
 # 解冻
 ws.freeze_panes = 'A1'
 ws.freeze_panes = None
-wb.save('file/demo.xlsx')
+wb.save('file/fishc/demo.xlsx')
 
 # 设置单元格字体
 wb = Workbook()
@@ -110,30 +110,30 @@ b3 = ws['B3']
 b3.value = 'World'
 italic_strike_blue_16font = Font(size=16, italic=True, strike=True, color='0000FF')
 b3.font = italic_strike_blue_16font
-wb.save('file/demo1.xlsx')
+wb.save('file/fishc/demo1.xlsx')
 
 # 填充单元格
 yellow_fill = PatternFill(fill_type='solid', fgColor='FFFF00')
 b2.fill = yellow_fill
-wb.save('file/demo2.xlsx')
+wb.save('file/fishc/demo2.xlsx')
 
 red2green_fill = GradientFill(type='linear', stop=('FF0000', '00FF00'))
 b3.fill = red2green_fill
-wb.save('file/demo2.xlsx')
+wb.save('file/fishc/demo2.xlsx')
 
 # 设置边框
 thin_side = Side(border_style='thin', color='000000')
 double_side = Side(border_style='double', color='FF0000')
 b2.border = Border(diagonal=thin_side, diagonalUp=True, diagonalDown=True)
 b3.border = Border(top=double_side, left=double_side, right=double_side, bottom=double_side)
-wb.save('file/demo3.xlsx')
+wb.save('file/fishc/demo3.xlsx')
 
 # 文本对齐
 ws.merge_cells('A1:C2')
 ws['A1'] = '这是一个合并单元格'
 center_alignment = Alignment(horizontal='center', vertical='center')
 ws['A1'].alignment = center_alignment
-wb.save('file/demo4.xlsx')
+wb.save('file/fishc/demo4.xlsx')
 
 # 命名样式
 '''
@@ -150,7 +150,7 @@ wb.add_named_style(highlight)
 ws['A1'].style = highlight
 ws['B5'].value = 'Hello'
 ws['B5'].style = highlight
-wb.save('file/demo5.xlsx')
+wb.save('file/fishc/demo5.xlsx')
 
 # 数字格式
 wb = openpyxl.Workbook()
@@ -158,7 +158,7 @@ ws = wb.active
 ws.append(['文本', '数字'])
 ws['A2'] = '520'
 ws['B2'] = 520
-wb.save('file/test1.xlsx')
+wb.save('file/fishc/test1.xlsx')
 
 wb = openpyxl.Workbook()
 ws = wb.active
@@ -166,7 +166,7 @@ ws['A1'] = 88.8
 ws['A1'].number_format = '#,###.00元'
 ws['A2'] = datetime.datetime.today()
 ws['A2'].number_format = 'yyyy-mm-dd'
-wb.save('file/test2.xlsx')
+wb.save('file/fishc/test2.xlsx')
 
 wb = openpyxl.Workbook()
 ws = wb.active
@@ -188,26 +188,26 @@ ws['A8'].number_format = '[<60][RED]不及格;[>=60][GREEN]及格'
 ws['A8'] = 58
 ws['A9'].number_format = '[<60][RED]不及格;[>=60][GREEN]及格'
 ws['A9'] = 68
-wb.save('file/number.xlsx')
+wb.save('file/fishc/number.xlsx')
 
 # 函数公式
 print('SUM' in FORMULAE)
 print('SAM' in FORMULAE)
 
-wb = load_workbook('file/test.xlsx')
+wb = load_workbook('file/fishc/test.xlsx')
 ws = wb['Sheet']
 for row in ws.iter_rows(min_col=2, min_row=2, max_col=5, max_row=5):
     ws[row[3].coordinate] = '=SUM(%s:%s)' % (row[0].coordinate, row[2].coordinate)
-wb.save('file/test.xlsx')
+wb.save('file/fishc/test.xlsx')
 
 center_alignment = Alignment(horizontal='center')
 for row in ws.iter_rows(min_col=2, min_row=2, max_col=6, max_row=5):
     ws[row[4].coordinate] = '=IF(%s>250, "A", "B")' % (row[3].coordinate)
     ws[row[4].coordinate].alignment = center_alignment
-wb.save('file/test.xlsx')
+wb.save('file/fishc/test.xlsx')
 
 # lookup
 ws['I2'] = '=LOOKUP(H2, D2:D5, A2:A5)'
-wb.save('file/test.xlsx')
+wb.save('file/fishc/test.xlsx')
 # vlookup
 
