@@ -4,13 +4,14 @@ import pyexcel as pe
 
 app = Flask(__name__)
 
+
 @app.route('/upload', methods=['GET', 'POST'])
 def upload():
     if request.method == 'POST' and 'excel' in request.files:
         # 处理上传文件
         filename = request.files['excel'].filename
         extension = filename.split(".")[1]
-        #获取文件扩展名和内容,传递一个元组而不是文件名。
+        # 获取文件扩展名和内容,传递一个元组而不是文件名。
         content = request.files['excel'].read()
         if sys.version_info[0] > 2:
             # 为了支持Python，必须将字节解码为STR。
@@ -22,6 +23,7 @@ def upload():
         return jsonify({"result": sheet.dict})
     return render_template('upload.html')
 
+
 data = [
     ["REVIEW_DATE", "AUTHOR", "ISBN", "DISCOUNTED_PRICE"],
     ["1985/01/21", "Douglas Adams", '0345391802', 5.95],
@@ -30,6 +32,8 @@ data = [
     ["1999/12/03", "Richard Friedman", '0060630353', 5.95],
     ["2004/10/04", "Randel Helms", '0879755725', 4.50]
 ]
+
+
 @app.route('/download')
 def download():
     sheet = pe.Sheet(data)
@@ -38,6 +42,7 @@ def download():
     output.headers["Content-type"] = "text/csv"
     return output
 
+
 if __name__ == "__main__":
-    #启动Web Server
+    # 启动Web Server
     app.run()

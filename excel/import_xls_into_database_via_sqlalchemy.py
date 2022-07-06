@@ -1,4 +1,3 @@
-import os
 import pyexcel
 import datetime
 
@@ -7,7 +6,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Column, Integer, String, Float, Date
 from sqlalchemy.orm import sessionmaker
 
-engine = create_engine("sqlite:///birth.db")
+engine = create_engine("sqlite:///file/third/birth.db")
 Base = declarative_base()
 Session = sessionmaker(bind=engine)
 
@@ -20,9 +19,10 @@ class BirthRegister(Base):
     weight = Column(Float)
     birth = Column(Date)
 
+
 Base.metadata.create_all(engine)
 
-#创建数据
+# 创建数据
 data = [
     ["name", "weight", "birth"],
     ["Adam", 3.4, datetime.date(2017, 2, 3)],
@@ -42,4 +42,3 @@ pyexcel.save_as(file_name="file/third/birth.xls",
 sheet = pyexcel.get_sheet(session=session, table=BirthRegister)
 print(sheet)
 session.close()
-

@@ -2,6 +2,7 @@ import os
 import pyexcel as pe
 import json
 
+
 def main(base_dir):
     sheet = pe.get_sheet(file_name=os.path.join(base_dir, "file/third/example_series.xls"),
                          name_columns_by_row=0)
@@ -39,7 +40,8 @@ def main(base_dir):
     print(data)
 
     # 可以把结果写入一个文件中
-    sheet.save_as("example_series.xls")
+    sheet.save_as("file/third/example_series.xls")
+
 
 if __name__ == '__main__':
     main(os.getcwd())
