@@ -12,6 +12,7 @@ and they lived at the bottom of a well.</p>
 <p class="story">...</p>
 """
 from bs4 import BeautifulSoup
+
 soup = BeautifulSoup(html, 'lxml')
 first_link = soup.a
 print(first_link)

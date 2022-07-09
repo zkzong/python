@@ -1,4 +1,4 @@
-html='''
+html = '''
 <div class="panel">
     <div class="panel-heading">
         <h4>Hello</h4>
@@ -17,6 +17,7 @@ html='''
 </div>
 '''
 from bs4 import BeautifulSoup
+
 soup = BeautifulSoup(html, 'lxml')
 for ul in soup.select('ul'):
     print(ul['id'])
