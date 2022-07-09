@@ -10,4 +10,4 @@ doc.add_paragraph(u'易用', 'Heading 2')
 doc.add_paragraph(u'功能强')
 p = doc.add_paragraph(u'贴合小年轻')
 p.style = 'Heading 2'
-doc.save('file/third/demo.docx')
+doc.save('../file/third/demo.docx')

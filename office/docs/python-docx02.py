@@ -14,4 +14,4 @@ for x in range(20):
     im.save(fake_buf_file, "png")
     r.add_picture(fake_buf_file)  # 在当前游程中插入图片
     fake_buf_file.close()
-    document.save("file/third/demo.docx")
+    document.save("../file/third/demo.docx")
