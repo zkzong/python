@@ -9,4 +9,4 @@ for i in range(10):
     style.font.size = Pt(i + 20)
     p.style = style
 
-doc.save('style-1.docx')
+doc.save('../file/third/style-1.docx')

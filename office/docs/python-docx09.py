@@ -8,4 +8,4 @@ for row in range(9):
     w = float(row) / 2.0
     t.columns[0].width = Inches(w)
 
-document.save('file/third/table-step.docx')
+document.save('../file/third/table-step.docx')

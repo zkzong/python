@@ -17,4 +17,4 @@ for col, info in enumerate(vmem_dict.keys()):
         table.cell(1, col).text = str(vmem_dict[info]) + '%'
     else:
         table.cell(1, col).text = str(vmem_dict[info] / (1024 * 1024)) + 'M'
-document.save('table.docx')
+document.save('../file/third/table.docx')
