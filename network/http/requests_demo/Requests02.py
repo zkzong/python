@@ -1,4 +1,5 @@
 import requests
+
 url = 'http://httpbin.org/get'
 data = {
     'name': 'zhangsan',
