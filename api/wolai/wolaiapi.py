@@ -22,9 +22,10 @@ headers = {
 }
 
 # 创建块
+# parent_id可以是页面id或块id
 url = '/blocks'
 req = {
-    "parent_id": "5PSTDtmyvRQCKdR8c8BKTj",
+    "parent_id": "2A6jreZuG6GPvdG1aNQRv",
     "blocks": [
         {
             "type": "text",
@@ -42,6 +43,12 @@ req = {
         }
     ]
 }
-resp = requests.post(url=base_url + url, headers=headers, json=req, verify=False)
+# resp = requests.post(url=base_url + url, headers=headers, json=req, verify=False)
+# print(resp)
+# print(resp.text)
+
+# 获取块信息
+url = '/blocks/2A6jreZuG6GPvdG1aNQRv'
+resp = requests.get(url=base_url + url, headers=headers, verify=False)
 print(resp)
 print(resp.text)
